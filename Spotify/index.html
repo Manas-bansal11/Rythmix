@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Spotify </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="man.png" alt="Rhythmix"> Rhythmix</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Podcast</li>
+            <li>Travel</li>
+            <li>Workout</li>
+            <li>Pop</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList"></div>
+        <h1>Best of Arjit Singh</h1>
+        <div class="songitemContainer">
+            <div class="songItem">
+                <img src="haw.jpeg" alt="1" >
+                <span>Hawayein</span>
+                <span class="songlistPlay"><span class="timestamp">05:34 <i id="0" class="far songItemPlay fa-solid fa-1x fa-play"></i></span></span>
+            </div> 
+            <div class="songItem">
+                <img src="apna.jpeg" alt="1" >
+                <span>Apna Bana Le</span>
+                <span class="songlistPlay"><span class="timestamp">04:34 <i id="1" class="far songItemPlay fa-solid fa-1x fa-play"></i></span></span>
+            </div> 
+            <div class="songItem">
+                <img src="kha.jpeg" alt="1" >
+                <span>Khairiyat</span>
+                <span class="songlistPlay"><span class="timestamp">05:44 <i id="2" class="far songItemPlay fa-solid fa-1x fa-play"></i></span></span>
+            </div> 
+            <div class="songItem">
+                <img src="sha.jpeg" alt="1" >
+                <span>Shayad</span>
+                <span class="songlistPlay"><span class="timestamp">05:36 <i id="3" class="far songItemPlay fa-solid fa-1x fa-play"></i></span></span>
+            </div> 
+            <div class="songItem">
+                <img src="soch.jpeg" alt="1" >
+                <span>Soch Naa Sake</span>
+                <span class="songlistPlay"><span class="timestamp">03:34 <i id="4" class="far songItemPlay fa-solid fa-1x fa-play"></i></span></span>
+            </div> 
+            
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    
+    <div class="bottom">
+<input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+<div class="icon">
+    <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+    <i class="fa-solid fa-3x fa-play" id="masterPlay"></i>
+    <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+</div>
+<div class="songInfo">
+    <img src="playing.gif" width="42px" alt="" > <span id="masterSongName"></span> 
+</div>
+    </div>
+    <script src="https://kit.fontawesome.com/dcfd2090b1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
